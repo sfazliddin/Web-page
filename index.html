@@ -1,38 +1,118 @@
 <!DOCTYPE html>
 <html lang="en-US">
- 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Today's Date</title>
-    <link rel="stylesheet" href="index.css">
-</head>
- 
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Samariddinkhon Fazliddinov</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
     <div id="intro">
-    <h1 id="myName">Samariddinkhon Fazliddinov</h1>
-    <h5 id="myTitle">Web Developer</h5>
-    
-    <p id="myBio">I am a senior at the College of Staten Island completing a Bachelors degree of Science in Computer Science-Mathematics</p>
+      <h1 id="myName">Samariddinkhon Fazliddinov</h1>
+      <h5 id="myTitle">Web Developer</h5>
+
+      <p id="myBio">
+        I am a senior at the College of Staten Island completing a Bachelors
+        degree of Science in Computer Science-Mathematics
+      </p>
     </div>
-    <h3 id="relCourses">Relevant Coursework</h3>
-    <h3 id="skills">Skills
-    </h3>
-    <h3 id="pro">Professional Experience</h3>
-    <h3 id="projects">Projects</h3>
+    <div>
+      <h3 id="relCourses">Relevant Coursework</h3>
+      <ul>
+        <li>Data Structures</li>
+        <li>Software Design</li>
+        <li>Analysis of Algorithms</li>
+        <li>Applied Combinatorics and Graph Theory</li>
+        <li>Digital Circuits Design</li>
+      </ul>
+    </div>
+    <div>
+      <h3 id="skills">Skills</h3>
+      <ul>
+        <li>
+          Programming:
+          <ul>
+            <li>JavaScript</li>
+            <li>C++</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Java</li>
+            <li>Git</li>
+          </ul>
+        </li>
+        <li>Frameworks & Libraries</li>
+        <ul>
+          <li>Express.js</li>
+          <li>Node.js</li>
+          <li>React.js</li>
+          <li>React Native</li>
+          <li>NPM</li>
+          <li>JQuery</li>
+          <li>PostgreSQL</li>
+        </ul>
+
+        <li>
+          Technologies
+          <ul>
+            <li>Visual Studio</li>
+            <li>Visual Studio Code</li>
+            <li>IntelliJ</li>
+            <li>GitHub</li>
+            <li>Linux,</li>
+            <li>Android Studio</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h3 id="pro">Professional Experience</h3>
+      <ul>
+        <li>Teaching Assistant - CUNY Tutor Corps.</li>
+        <li>Web Development Intern - Tekie Geek</li>
+        <li>React Native Developer Intern - Tilleli Inc.</li>
+      </ul>
+    </div>
+    <div>
+      <h3 id="projects">Projects</h3>
+    </div>
     <div id="buttons">
-    <button  id="presentationLink" type="button">presentation link</button>
-    <button id="myResume" type="button">resume</button>
-    <button id="majorPresentation" type="button">major presentation</button>
-</div>
-<script >function App(){
-
-    var elements = document.querySelectorAll("button")
-                   for (var i = 0, element; element = elements[i++];) {
-                      element.value = (element.value).toUpperCase();}
-}</script>
-
-</body> 
- 
+      <a
+        href="https://docs.google.com/presentation/d/1Lf9w0fY3Z9e9O49urTh_4IQ7aG6RrdsXrYKh9EcSYJI/edit?usp=sharing"
+        target="_blank"
+      >
+        <button id="majorPresentationLink" type="button">
+          major presentation link
+        </button>
+      </a>
+      <a
+        href="https://drive.google.com/file/d/1eU9dTLl9Zlr_Qiuz_HWGhDX-bchKBGoJ/view"
+        target="_blank"
+      >
+        <button id="myResume" type="button">resume</button>
+      </a>
+      <a
+        href="http://linkedin.com/in/sfazliddin"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button id="LinkedIN" type="button">LinkedIN</button>
+      </a>
+      <a
+        href="http://github.com/sfazliddin"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button id="gitHub" type="button">github</button>
+      </a>
+    </div>
+    <script>
+      function App() {
+        var elements = document.querySelectorAll("button");
+        for (var i = 0, element; (element = elements[i++]); ) {
+          element.value = element.value.toUpperCase();
+        }
+      }
+    </script>
+  </body>
 </html>
-

@@ -3,6 +3,13 @@ button {
   text-align: center;
   align-items: center;
   align-self: center;
+  background-color: aqua;
+  border-radius: 5px;
+  margin: 25px;
+  padding: 10px;
+  font-size: medium;
+  block-size: auto;
+  
 }
 h1 {
   text-transform: uppercase;
@@ -20,4 +27,5 @@ h5 {
 #buttons{
     text-align: center;
     justify-items: end;
+   
 }
